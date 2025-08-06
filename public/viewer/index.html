@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Secure PDF Viewer</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.7.76/pdf.min.mjs" type="module"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="overlay">
+    <div id="overlayBox">
+      Please dont try to save the content! <br> It hurts the developer
+    </div>
+  </div>
+  <div id="toolbar">
+    <div id="toolbarControls">
+      <button id="toggleSidebar">☰</button>
+      <button id="prevPage">←</button>
+      <button id="nextPage">→</button>
+      <input id="pageNumber" type="number" min="1" />
+      <span id="pageCount"></span>
+      <button id="zoomIn">+</button>
+      <button id="zoomOut">-</button>
+      <button id="darkModeToggle">Dark Mode</button>
+      <input id="searchInput" type="text" placeholder="Search PDF" />
+    </div>
+  </div>
+  <div id="sidebar"></div>
+  <div id="viewerContainer">
+    <div class="loading" id="loadingIndicator">Loading...</div>
+  </div>
+  <script src="script.js" type="module"></script>
+</body>
+
+</html>

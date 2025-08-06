@@ -1,0 +1,14 @@
+{
+    "College Academics": {
+        "Semester3":{
+            "DE":["Unit1.pdf", "Unit2.pdf"],
+            "CO":["Unit1.pdf", "Unit2.pdf"],
+            "EM2":["Unit1.pdf", "Unit2.pdf"]
+        }
+    },
+    "Coding":{
+        "Web Dev":["Unit1.pdf", "Unit2.pdf"],
+        "App Dev":["Unit1.pdf", "Unit2.pdf"],
+        "DSA":["Unit1.pdf", "Unit2.pdf"]
+    }
+}
